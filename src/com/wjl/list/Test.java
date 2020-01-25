@@ -14,6 +14,7 @@ public class Test {
         System.out.println(myLinkedList.toString());
         myLinkedList.add(0,"5");
         System.out.println(myLinkedList.toString());
-
+        myLinkedList.remove(0);
+        System.out.println(myLinkedList.toString());
     }
 }
